@@ -3,7 +3,8 @@
         {
             "tag": "saludo",
             "patterns":["hola","buenos dias","Buenos días","Buenas tardes","buenas tardes"],
-            "responses":["Hola!,¿En que puedo ayudarte?"]
+            "responses":["Hola soy tu asistente virtual, bienvenido al área de soporte ¿En que puedo ayudarte?"]
         }
+
     ]
 }
