@@ -3,13 +3,12 @@
         {
             "tag": "saludo",
             "patterns":["hola","buenos dias","Buenos días","Buenas tardes","buenas tardes"],
-            "responses":["Hola, soy Seri tu asistente virtual, bienvenido al área de soporte ¿En que puedo ayudarte?"]
+            "responses":["Hola, soy Seri tu asistente virtual, bienvenido al área de soporte ¿En qué puedo ayudarte?"]
         },
         {
             "tag": "resolución",
             "patterns":["se me vencio la resolucion"],
-            "responses":["Para renovar tu resolución debe ingresar primero al muisca de la Dian y realziar los pasos del siguiente video: https://youtu.be/cyI4bjgikqk?si=rblO1ycmVA8aa4jv "]
+            "responses":["Para renovar tu resolución debe ingresar primero al muisca de la Dian y realizar los pasos del siguiente video: https://youtu.be/cyI4bjgikqk?si=rblO1ycmVA8aa4jv"]
         }
-
     ]
 }
