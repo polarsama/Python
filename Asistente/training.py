@@ -2,6 +2,8 @@ import json
 import random
 import pickle
 import numpy
+import tensorflow 
+import keras # CV y HUB pip install --upgrade keras | keras-hub | keras-cv
 
 import nltk
 from nltk.stem import WordNetLemmatizer
