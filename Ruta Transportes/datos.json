@@ -1,0 +1,46 @@
+{
+    "estaciones": [
+        {
+            "id": "EST001",
+            "nombre": "Terminal Central",
+            "latitud": 4.6097,
+            "longitud": -74.0817,
+            "lineas": ["L1", "L2", "L4"],
+            "servicios": ["baños", "wifi", "accesibilidad"]
+        },
+        ...
+    ],
+    "conexiones": [
+        {
+            "origen": "EST001",
+            "destino": "EST002",
+            "linea": "L1",
+            "tiempo": 5,
+            "distancia": 1.2,
+            "horario": {
+                "lunes": {"inicio": [5, 0], "fin": [23, 0]},
+                "martes": {"inicio": [5, 0], "fin": [23, 0]},
+                ...
+            }
+        },
+        ...
+    ],
+    "reglas": [
+        {
+            "tipo": "cierre_estacion",
+            "estacion_id": "EST005",
+            "fecha_inicio": "2023-06-01",
+            "fecha_fin": "2023-06-15",
+            "motivo": "Mantenimiento programado"
+        },
+        {
+            "tipo": "congestion",
+            "linea": "L1",
+            "hora_inicio": [7, 0],
+            "hora_fin": [9, 0],
+            "factor": 1.8,
+            "dias": ["lunes", "martes", "miercoles", "jueves", "viernes"]
+        },
+        ...
+    ]
+}
