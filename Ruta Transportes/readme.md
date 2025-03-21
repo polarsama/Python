@@ -156,7 +156,7 @@ import datetime
 from sistema_rutas import BaseConocimiento, SistemaRutas, Preferencia
 
 # Crear la base de conocimiento
-base = BaseConocimiento("datos_transporte.json")
+base = BaseConocimiento("datos.json")
 
 # Crear el sistema de rutas
 sistema = SistemaRutas(base)
